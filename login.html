@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+</head>
+<body style="background-color: lightgrey;color: black;font-family: cursive;font-style: normal;font-size: 20px;text-align: center;">
+	<form action="form1.html" name="myform">
+	<fieldset>
+		
+		<legend style="font-style: oblique;">Login Page</legend>
+		Username:<br>
+		<input id="user" type="text" name="Username">
+		<br>
+		Password:<br>
+		<input id="pass" type="password" name="password"   >
+		<br>
+		<br>
+		<label>Title</label>
+		<input type="text" name="title" class="title" value="">
+
+		<input type="button" value="Login" class="btnlogin" onclick="validate('#user','#pass','.title')">
+	
+	</fieldset >
+	</form>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+
+
+</html>
